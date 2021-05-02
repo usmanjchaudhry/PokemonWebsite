@@ -16,7 +16,7 @@
   
   
     <button type="submit" class="btn btn-primary">Login</button>
-    <b-button class="btn btn-primary"  type="reset" variant="danger">Register</b-button>
+    <b-button class="btn btn-primary" href="register"  type="reset" variant="danger">Register</b-button>
   
   
 </form>

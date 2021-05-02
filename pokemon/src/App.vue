@@ -20,8 +20,9 @@
          <b-nav-item href="/">Home</b-nav-item>
         <b-nav-item href="about">About</b-nav-item>
         <b-nav-item href="Profile">Profile</b-nav-item>
+     
         
-        <b-nav-item href="#" disabled>Disabled</b-nav-item>
+       
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
