@@ -1,5 +1,9 @@
 <template>
   <div class="home">
+        <b-container>
+  <!-- Content here -->
+
+
 <form method="post">
 	<div class="form-group">
     	<label for="Username">Username</label>
@@ -9,8 +13,15 @@
     	<label for="Password">Password</label>
 		<input type="password" class="form-control" name="password" placeholder="Password" required="true"> 
 	</div>
+  
+  
     <button type="submit" class="btn btn-primary">Login</button>
+    <b-button class="btn btn-primary"  type="reset" variant="danger">Register</b-button>
+  
+  
 </form>
+
+</b-container>
     
   </div>
 </template>
@@ -25,3 +36,4 @@ export default {
   },
 };
 </script>
+
