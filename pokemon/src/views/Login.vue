@@ -1,5 +1,7 @@
+
+
 <template>
-  <div class="login">
+    <div class="login">
         <b-container>
   <!-- Content here -->
 
@@ -25,4 +27,3 @@
     
   </div>
 </template>
-
