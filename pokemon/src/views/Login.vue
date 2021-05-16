@@ -1,23 +1,8 @@
 <template>
-  <div class="home">
+  <div class="login">
+        <b-container>
+  <!-- Content here -->
 
-<b-container>
-    <h1>This is a Home page</h1>
-  <p> We will put an Intro here to the website </p>
-  
-  
-</b-container>
-
-
-  </div>
-
-  </template>
-
-
-
-
-        <!-- <b-container>
- 
 
 <form method="post">
 	<div class="form-group">
@@ -36,19 +21,8 @@
   
 </form>
 
-</b-container> -->
+</b-container>
     
-  
-
-
-<script>
-
-
-export default {
-  name: "Home",
-  components: {
-    
-  },
-};
-</script>
+  </div>
+</template>
 

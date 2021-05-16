@@ -1,7 +1,7 @@
 <template>
     <div>
         <h3> My Profile </h3>
-       <app-status />
+       <app-status />  
 
     </div>
 </template>
