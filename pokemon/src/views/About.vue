@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is a Pokemon page</h1>
+    <b-container>
+    
+        <Pokemon />
+    </b-container>
   </div>
 </template>
+
+
+<script>
+import Pokemon from '../components/Pokemon.vue'
+export default {
+  components: {
+    Pokemon
+  }
+}
+</script>
+
+

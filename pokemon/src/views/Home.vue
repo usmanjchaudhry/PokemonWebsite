@@ -5,6 +5,8 @@
     <h1>This is a Home page</h1>
   <p> We will put an Intro here to the website </p>
   
+
+  <img class="catch" src="../assets/PokemonCatchEmAll.jpg">
   
 </b-container>
 
@@ -52,3 +54,14 @@ export default {
 };
 </script>
 
+<style scoped>
+.catch {
+  text-align: center;
+  height:800px;
+  width:1200px;
+}
+
+body{
+  background-color:black;
+}
+</style>
