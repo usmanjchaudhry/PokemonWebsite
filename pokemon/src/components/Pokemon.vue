@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Pokedex</h1>
+    <h1 class="animate__animated animate__bounce">Pokedex</h1>
        <PokemonList 
       :imageUrl="imageUrl" 
       :apiUrl="apiUrl"
@@ -61,7 +61,10 @@
     font-family: 'Acme', arial;
     font-size: 1rem;
     font-weight: normal;
+   
   }
 
-  h1 { color: white; }
+  h1 { color: white;}
+
+
 </style>

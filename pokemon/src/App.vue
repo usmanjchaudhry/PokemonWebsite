@@ -73,7 +73,10 @@
   color: #42b983;
 }
 
-
+img:hover {
+  animation:heartBeat;
+  animation-duration: 2s;
+}
 
 
 </style>

@@ -31,6 +31,8 @@ export default {
   text-align: center;
   height:800px;
   width:1200px;
+  animation: fadeIn;
+  animation-duration:5s;
 }
 
 body{
