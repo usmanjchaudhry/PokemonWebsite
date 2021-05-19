@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <!-- for animations if this doesnt work just do command npm install animate.css --save -->
+  <link href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2" rel="stylesheet" type="text/css">
+
   
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
