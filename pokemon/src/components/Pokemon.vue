@@ -1,10 +1,7 @@
 <template>
   <div class="container">
-    <h1>Pokemon's</h1>
-    <!-- <PokemonSearch 
-      :apiUrl="apiUrl" 
-      @setPokemonUrl="setPokemonUrl" /> -->
-    <PokemonList 
+    <h1>Pokedex</h1>
+       <PokemonList 
       :imageUrl="imageUrl" 
       :apiUrl="apiUrl"
       @setPokemonUrl="setPokemonUrl" />
@@ -17,7 +14,6 @@
 </template>
 
 <script>
- // import PokemonSearch from './PokemonSearch.vue';
   import PokemonList from './PokemonList.vue';
   import PokemonDetail from './PokemonDetail.vue';
 
@@ -31,7 +27,7 @@
       }
     },
     components: {
-    //   PokemonSearch,
+    
       PokemonList,
        PokemonDetail
     },
@@ -67,5 +63,5 @@
     font-weight: normal;
   }
 
-  h1 { color: #efefef; }
+  h1 { color: white; }
 </style>

@@ -93,7 +93,12 @@
       box-shadow: 0 15px 30px rgba(0,0,0,.2),
                   0 10px 10px rgba(0,0,0,.2);
     }
-  
+    article:hover{
+      background-color: green;
+       border: 2px solid yellow;
+       color:black;
+    }
+
   h3 {
         margin: 0;
       }
