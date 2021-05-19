@@ -97,6 +97,7 @@
   h3 {
         margin: 0;
       }
+      
   #scroll-trigger {
     display: flex;
     justify-content: center;
