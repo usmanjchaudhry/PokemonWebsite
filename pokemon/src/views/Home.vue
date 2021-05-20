@@ -1,10 +1,10 @@
 <template>
   <div class="home">
 
-<b-container>
-  <img class="catch" src="../assets/PokemonCatchEmAll.jpg">
+<div class="dude">
+  <img class="catch" src="https://techcrunch.com/wp-content/uploads/2016/07/gettyimages-482740284.jpg">
   
-</b-container>
+</div>
 
 
   </div>
@@ -27,12 +27,22 @@ export default {
 </script>
 
 <style scoped>
+
+.dude{
+  display: flexbox;
+  margin-left: unset;
+  margin-right: unset;
+  margin-top: 100px;
+  margin: 0 !important;
+  
+}
 .catch {
   text-align: center;
   height:800px;
   width:1200px;
   animation: fadeIn;
   animation-duration:5s;
+  margin-left: 0px;
 }
 
 body{

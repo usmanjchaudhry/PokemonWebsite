@@ -105,6 +105,7 @@
 
   h3 {
         margin: 0;
+        height: 50px;
       }
       
   #scroll-trigger {
