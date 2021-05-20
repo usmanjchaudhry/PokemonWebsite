@@ -14,7 +14,7 @@
   <b-navbar  toggleable="lg" type="dark" variant="info">
     
     <b-navbar-brand  href="#">
-    <img src="./assets/PokemonLogo.png" width="auto" height="40 px" /> </b-navbar-brand>
+    <img src="./assets/PokemonLogo.png"  width="auto" height="40 px" /> </b-navbar-brand>
 
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -57,9 +57,9 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   background-image: url("./assets/pokemon-ball.png");
+
   
   
    
