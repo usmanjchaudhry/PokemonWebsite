@@ -58,7 +58,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-image: url("./assets/pokemon-ball.png");
+  text-align: center;
 
   
   

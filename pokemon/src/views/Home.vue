@@ -3,7 +3,7 @@
 
 
 <div class="fvue">
-  <img class="catch" src="../assets/PokemonCatchEmAll.jpg">
+  <img class="catch" src="https://cdn.freebiesupply.com/logos/thumbs/2x/pokemon-23-logo.png">
 </div>
 
 
@@ -34,17 +34,20 @@ export default {
 
 .fvue {
   margin-bottom:0px;
+  margin-top: -200px;
+ align-content: center;
+  
 }
 
 .catch {
-  text-align: center;
+
   height:900px;
-  width:1950px;
-  background-size: cover;
-  margin-left: initial ;
+  width:1000px;
+text-align: center;
+  align-content: center;
   animation: fadeIn;
   animation-duration:3s;
-   background-size: cover;
+ 
 }
 
 
