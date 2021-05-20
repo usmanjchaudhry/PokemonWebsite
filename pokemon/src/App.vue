@@ -11,7 +11,7 @@
     </div> -->
    <div>
  
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar  toggleable="lg" type="dark" variant="info">
     
     <b-navbar-brand  href="#">
     <img src="./assets/PokemonLogo.png" width="auto" height="40 px" /> </b-navbar-brand>
@@ -33,7 +33,8 @@
       <b-navbar-nav class="ml-auto">
        
 
-      
+      <!--New Comment -->
+      <!--Another New Comment -->
 
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->
@@ -57,12 +58,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+<<<<<<< HEAD
   color: #377cc2;
   
  
+=======
+  color: #2c3e50;
+  background-image: url("./assets/pokemon-ball.png");
+>>>>>>> 29c19e6628f29a55945976625ddd1ffd72cba456
   
- 
+  
+   
 }
+
+
+
+.navbar-dark .navbar-nav .nav-link{
+      color:white!important
+    }
+
 
 #nav {
   padding: 30px;

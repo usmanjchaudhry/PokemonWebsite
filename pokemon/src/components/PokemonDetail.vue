@@ -165,8 +165,8 @@
             word-wrap: none;
             word-break: keep-all;
           }
-          .type { background-color: #0A2E50; }
-          .ability { background-color: #C73015; }
+          .type { background-color: #245ddb; }
+          .ability { background-color: red; }
         
       
       .close {

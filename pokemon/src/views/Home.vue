@@ -1,13 +1,22 @@
 <template>
   <div class="home">
 
+<<<<<<< HEAD
 <div class="dude">
   <img class="catch" src="https://techcrunch.com/wp-content/uploads/2016/07/gettyimages-482740284.jpg">
   
 </div>
+=======
 
+<div class="fvue">
+  <img class="catch" src="../assets/PokemonCatchEmAll.jpg">
+</div>
 
-  </div>
+>>>>>>> 29c19e6628f29a55945976625ddd1ffd72cba456
+
+</div>
+
+ 
 
   </template>
 
@@ -26,8 +35,11 @@ export default {
 };
 </script>
 
+
+
 <style scoped>
 
+<<<<<<< HEAD
 .dude{
   display: flexbox;
   margin-left: unset;
@@ -36,16 +48,26 @@ export default {
   margin: 0 !important;
   
 }
-.catch {
-  text-align: center;
-  height:800px;
-  width:1200px;
-  animation: fadeIn;
-  animation-duration:5s;
-  margin-left: 0px;
+=======
+.fvue {
+  margin-bottom:0px;
 }
 
-body{
-  background-color:black;
+>>>>>>> 29c19e6628f29a55945976625ddd1ffd72cba456
+.catch {
+  text-align: center;
+  height:950px;
+  width:1350px;
+  background-size: cover;
+  margin-left: initial ;
+  animation: fadeIn;
+<<<<<<< HEAD
+  animation-duration:5s;
+  margin-left: 0px;
+=======
+  animation-duration:3s;
+>>>>>>> 29c19e6628f29a55945976625ddd1ffd72cba456
 }
+
+
 </style>
