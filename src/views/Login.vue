@@ -51,6 +51,9 @@ h2 {
   margin: 30px 0px;
 }
 
+img {
+  margin-left: 300px;
+}
 .btn-primary {
   display: block;
   width: 15%;
