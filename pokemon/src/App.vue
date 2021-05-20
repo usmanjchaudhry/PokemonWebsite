@@ -11,7 +11,7 @@
     </div> -->
    <div>
  
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar  toggleable="lg" type="dark" variant="info">
     
     <b-navbar-brand  href="#">
     <img src="./assets/PokemonLogo.png" width="auto" height="40 px" /> </b-navbar-brand>
@@ -59,10 +59,18 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
- 
+  background-image: url("./assets/pokemon-ball.png");
   
- 
+  
+   
 }
+
+
+
+.navbar-dark .navbar-nav .nav-link{
+      color:white!important
+    }
+
 
 #nav {
   padding: 30px;

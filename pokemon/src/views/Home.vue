@@ -1,13 +1,15 @@
 <template>
   <div class="home">
 
-<b-container>
+
+<div class="fvue">
   <img class="catch" src="../assets/PokemonCatchEmAll.jpg">
-  
-</b-container>
+</div>
 
 
-  </div>
+</div>
+
+ 
 
   </template>
 
@@ -26,16 +28,23 @@ export default {
 };
 </script>
 
+
+
 <style scoped>
-.catch {
-  text-align: center;
-  height:800px;
-  width:1200px;
-  animation: fadeIn;
-  animation-duration:5s;
+
+.fvue {
+  margin-bottom:0px;
 }
 
-body{
-  background-color:black;
+.catch {
+  text-align: center;
+  height:950px;
+  width:1350px;
+  background-size: cover;
+  margin-left: initial ;
+  animation: fadeIn;
+  animation-duration:3s;
 }
+
+
 </style>

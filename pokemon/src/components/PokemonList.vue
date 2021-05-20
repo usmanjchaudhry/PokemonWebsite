@@ -84,7 +84,7 @@
     }
 
     article {
-        height: 150px;
+      height: 150px;
       background-color: #efefef;
       text-align: center;
       text-transform: capitalize;
@@ -105,6 +105,7 @@
 
   h3 {
         margin: 0;
+        height:52px;
       }
       
   #scroll-trigger {
