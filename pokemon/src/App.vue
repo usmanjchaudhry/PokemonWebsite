@@ -11,7 +11,7 @@
     </div> -->
    <div>
  
-  <b-navbar  toggleable="lg" type="dark" variant="info">
+  <b-navbar  toggleable="lg" type="dark" variant="danger">
     
     <b-navbar-brand  href="about">
     <img src="./assets/PokemonLogo.png"  width="auto" height="40 px" /> </b-navbar-brand>
@@ -63,6 +63,7 @@
   
    
 }
+
 
 
 

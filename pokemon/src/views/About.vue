@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <b-container>
+    <b-container fluid="xl">
     
         <Pokemon />
     </b-container>
@@ -18,3 +18,6 @@ export default {
 </script>
 
 
+<style scoped>
+
+</style>

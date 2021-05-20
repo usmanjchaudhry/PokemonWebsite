@@ -3,6 +3,8 @@
         <h3> My Profile </h3>
        <app-status />  
 
+
+<router-link to="/login">Go to Login Page</router-link> 
     </div>
 </template>
 
