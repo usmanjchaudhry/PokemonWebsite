@@ -105,11 +105,7 @@
 
   h3 {
         margin: 0;
-<<<<<<< HEAD
-        height: 50px;
-=======
         height:52px;
->>>>>>> 29c19e6628f29a55945976625ddd1ffd72cba456
       }
       
   #scroll-trigger {
