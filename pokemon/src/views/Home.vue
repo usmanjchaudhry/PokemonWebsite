@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+   
 
 
 <div class="fvue">
@@ -9,11 +10,13 @@
 
 
 <div class="fvue2">
-  <img class="catch9" href ="about" src="https://www.pngkey.com/png/full/56-566109_pikachu-transparent-background-pokmon-pikachu.png">
+  <a href="about">
+  <img class="catch9"   src="https://www.pngkey.com/png/full/56-566109_pikachu-transparent-background-pokmon-pikachu.png">
+  </a>
 </div>
 
+<img class ="awesome" src="https://fontmeme.com/permalink/210520/ee01eed501fdf60fa9543e37c492f3fc.png" alt="pokemon-font" border="0">
 
-<h1 class="text">Click me to view all pokemon</h1>
 
 </div>
 
@@ -70,4 +73,10 @@ text-align: center;
   font-size: 40px;
   text-align: center;
 }
+
+ .awesome {
+   margin-left:500px;
+   align-items: center;
+   animation:none;
+ }
 </style>

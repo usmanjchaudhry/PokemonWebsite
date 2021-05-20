@@ -13,7 +13,7 @@
  
   <b-navbar  toggleable="lg" type="dark" variant="info">
     
-    <b-navbar-brand  href="#">
+    <b-navbar-brand  href="about">
     <img src="./assets/PokemonLogo.png"  width="auto" height="40 px" /> </b-navbar-brand>
 
 
@@ -88,6 +88,7 @@
 img:hover {
   animation:heartBeat;
   animation-duration: 2s;
+ 
 }
 
 
