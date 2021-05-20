@@ -13,7 +13,7 @@
  
   <b-navbar  toggleable="lg" type="dark" variant="danger">
     
-    <b-navbar-brand  href="about">
+    <b-navbar-brand  href="/">
     <img src="./assets/PokemonLogo.png"  width="auto" height="40 px" /> </b-navbar-brand>
 
 
