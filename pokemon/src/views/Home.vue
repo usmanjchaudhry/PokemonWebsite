@@ -38,12 +38,13 @@ export default {
 
 .catch {
   text-align: center;
-  height:950px;
-  width:1350px;
+  height:900px;
+  width:1950px;
   background-size: cover;
   margin-left: initial ;
   animation: fadeIn;
   animation-duration:3s;
+   background-size: cover;
 }
 
 
