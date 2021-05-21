@@ -12,7 +12,7 @@
 
 <div class="container">
 <h2>Sign in</h2>
-     <b-form  @submit="onSubmit" @reset="onReset" v-if="show">
+     <b-form  @submit="onSubmit"  v-if="show">
       <b-form-group
         id="input-group-1"
         label="User:"
@@ -82,20 +82,10 @@ export default {
           this.con=true
         }
       },
-      onReset(evt) {
-        evt.preventDefault()
-        // Reset our form values
-        
-        this.form.user = ''
-        this.form.password = ''
-        this.con=false
-        // Trick to reset/clear native browser form validation state
-        this.show = false
-        this.$nextTick(() => {
-          this.show = true
-        })
-      }
+     
+      
+    
     }
-  
+ 
 }
 </script>
