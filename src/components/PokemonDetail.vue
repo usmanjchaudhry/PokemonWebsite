@@ -1,4 +1,5 @@
 <template>
+<!-- detail component after you click the one of the pokemon cards from the list -->
   <div class="detail">
     <div class="detail-view" v-if="show">
       <div v-if="pokemon" class="image">

@@ -11,6 +11,7 @@
     </div> -->
    <div>
  
+ <!-- this is the navbar used from bootstrap-vue library -->
   <b-navbar  toggleable="lg" type="dark" variant="danger">
     
     <b-navbar-brand  href="/">

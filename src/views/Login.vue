@@ -2,7 +2,7 @@
 
 <template>
     <div class="login">
-      
+     <!-- importing Form.vue via the router --> 
  <Form msg="Hello"/>
 
   </div>

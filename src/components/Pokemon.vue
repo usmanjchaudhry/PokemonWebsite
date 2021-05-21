@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- a way to structure the List and Detail -->
     <h1 class="animate__animated animate__bounce">Pokedex</h1>
        <PokemonList 
       :imageUrl="imageUrl" 
@@ -13,7 +14,9 @@
   </div>
 </template>
 
+<!-- import data from PokemonList and PokemonDetail we are getting info from API like name and details, images coming from Sprites via githubusercontent (the imageUrl) -->
 <script>
+
   import PokemonList from './PokemonList.vue';
   import PokemonDetail from './PokemonDetail.vue';
 
@@ -43,7 +46,7 @@
     }
   }
 </script>
-
+<!-- some styles for Pokemon container using flex (its the background thats blue) -->
 <style>
   @import url('https://fonts.googleapis.com/css?family=Acme');
 

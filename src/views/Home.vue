@@ -1,7 +1,7 @@
 <template>
   <div class="home">
    
-
+<!-- below images are just some fun things to pop out to user that visits our webpage -->
 
 <div class="fvue">
   <img class="catch" src="https://www.freepnglogos.com/uploads/pokemon-logo-text-png-7.png">

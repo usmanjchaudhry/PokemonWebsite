@@ -8,6 +8,7 @@
       src="https://th.bing.com/th/id/OIP.SO2ToQqfLHc8jy16ub1yaQHaGm?pid=ImgDet&rs=1"
 >
 
+<!-- all this is bootstrap-vue form with our variables -->
 <form method="post">
 	<div class="form-group">
     	<label for="FirstName">First Name</label>
@@ -27,7 +28,7 @@
 	</div>
   
   
- <!-- Button links to about page for now -->
+ <!-- Button links to about page for now till we get full functionality -->
 
     
     <b-button class="btn btn-primary" href="about"  type="reset" variant="danger">Submit</b-button>

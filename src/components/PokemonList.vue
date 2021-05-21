@@ -12,6 +12,7 @@
   </div>
 </template>
 
+<!-- below we are putting all the pokemon info into the array pokemons[], gathered from api and imageUrl. Using fetch method-->
 <script>
   export default {
     props: [
@@ -73,6 +74,7 @@
   }
 </script>
 
+<!-- the style for the list is grid, just wanted to use the grid-template-columns for easy autofit and scaling each poke "card" (the articles) -->
 <style>
   .list {
     display: grid;
