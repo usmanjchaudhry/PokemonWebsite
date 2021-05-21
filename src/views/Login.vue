@@ -2,40 +2,25 @@
 
 <template>
     <div class="login">
-        <b-container>
-  <!-- Content here -->
+      
+ <Form msg="Welcome to Your Vue.js App"/>
 
-<div>
-  <img class = "loginpic" src="https://th.bing.com/th/id/R92376cd31daa2b778d0c8c972f4ff15e?rik=tlNWq4EqkBli3g&pid=ImgRaw"
-  height = 50%;
-  width = 50%;
-  >
-</div>
-
-<div class="container">
-<h2>Sign in</h2>
-<form method="post">
-	<div class="form-group">
-    	<label for="Username">Username</label>
-		<input type="text" class="form-control" name="username" placeholder="Username" required="true">  
-	</div>
-    <div class="form-group">
-    	<label for="Password">Password</label>
-		<input type="password" class="form-control" name="password" placeholder="Password" required="true"> 
-	</div>
-  
-  
-    <button type="submit" class="btn btn-primary">Login</button>
-    <b-button class="btn btn-primary" href="register"  type="reset" variant="danger">Register</b-button>
-  
-  
-</form>
-</div>
-
-</b-container>
-    
   </div>
 </template>
+
+
+
+<script>
+
+import Form from '@/components/Form.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    Form
+  }
+}
+</script>
 
 <style scoped>
 .form-group {

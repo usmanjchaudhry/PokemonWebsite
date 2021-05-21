@@ -1,3 +1,8 @@
+
+
+
+
+
 <template>
   <div class="home">
    
@@ -41,6 +46,9 @@ export default {
 
 
 
+
+
+
 <style scoped>
 
 .fvue {
@@ -80,3 +88,4 @@ text-align: center;
    animation:none;
  }
 </style>
+
