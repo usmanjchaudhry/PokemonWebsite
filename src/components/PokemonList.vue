@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<!-- below we are putting all the pokemon info into the array pokemons[], gathered from api and imageUrl. Using fetch method-->
+<!-- below we are putting all the pokemon info into the array pokemons[], gathered from api and imageUrl. Using fetch method to populate the list on grid-->
 <script>
   export default {
     props: [
