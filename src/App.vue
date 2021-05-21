@@ -69,6 +69,7 @@
 
 .navbar-dark .navbar-nav .nav-link{
       color:white!important
+    
     }
 
 
@@ -79,6 +80,7 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  font-size: 100px;
 }
 
 

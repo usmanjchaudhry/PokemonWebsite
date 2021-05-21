@@ -53,6 +53,7 @@ h2 {
 
 img {
   margin-left: 300px;
+  margin-top: 90px;
 }
 .btn-primary {
   display: block;
